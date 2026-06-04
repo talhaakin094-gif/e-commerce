@@ -1,4 +1,4 @@
-import { data } from "./data/data";
+import { data } from "./data/Data";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import PageContent from "./layout/PageContent";

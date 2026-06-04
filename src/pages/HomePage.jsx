@@ -1,4 +1,4 @@
-import { data } from "../data/data";
+import { data } from "../data/Data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
