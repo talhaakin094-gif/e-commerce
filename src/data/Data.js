@@ -4,63 +4,63 @@ export const data = {
       title:"Unique Life",
       subtitle:"Your Space",
       text:"Explore Items",
-      image:"https://images.unsplash.com/photo-1570197788417-0e82375c9371",
+      image:"https://i.imgur.com/zqiKJKQ.jpeg"
     },
     {
       title:"Elements Style",
       subtitle:"Ends Today",
       text:"Explore Items",
-      image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+      image:"https://i.imgur.com/FFB0IiH.jpeg"
     },
     {
       title:"Elements Style",
       subtitle:"Ends Today",
       text:"Explore Items",
-      image:"https://images.unsplash.com/photo-1544025162-d76694265947",
+      image:"https://i.imgur.com/n6ErVfB.jpeg"
     } 
   ],  
   featuredProducts:[
     { 
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1570197788417-0e82375c9371"
+      image:"https://i.imgur.com/zqiKJKQ.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce"
+      image:"https://i.imgur.com/FFB0IiH.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1544025162-d76694265947"
+      image:"https://i.imgur.com/n6ErVfB.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1570197788417-0e82375c9371"
+      image:"https://i.imgur.com/zqiKJKQ.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce"
+      image:"https://i.imgur.com/FFB0IiH.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1544025162-d76694265947"
+      image:"https://i.imgur.com/n6ErVfB.jpeg"
     }   
   ],  
   popularProducts:{
@@ -97,7 +97,7 @@ export const data = {
     mostPopular:{
       title:"MOST POPULAR",
       subtitle:"We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
-      text:"English Department",
+      text:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
       image:""
@@ -106,58 +106,58 @@ export const data = {
   bestSellerProducts:[
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+      image:"https://i.imgur.com/zqiKJKQ.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+      image:"https://i.imgur.com/FFB0IiH.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+      image:"https://i.imgur.com/n6ErVfB.jpeg"
     },
     {
       title:"Graphic Design",
-      subtitle:"English Department",
+      subtitle:"Grocery Department",
       oldPrice:"$16.48",
       price:"$6.48",
-      image:"https://images.unsplash.com/photo-1482049016688-2d3e1b311543"
+      image:"https://i.imgur.com/6xZ4rq4.jpeg"
     }
   ],
   brandList:[
     {
-      image:"https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+      image:"https://i.imgur.com/ooy80yG.jpeg"
     },
     {
-      image:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+      image:"https://i.imgur.com/6xpNKgk.jpeg"
     },
     {
-      image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+      image:"https://i.imgur.com/1cdwrqm.jpeg"
     },
     {
-      image:"https://images.unsplash.com/photo-1482049016688-2d3e1b311543"
+      image:"https://i.imgur.com/BoUTJF0.jpeg"
     },
     {
-      image:"https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+      image:"https://i.imgur.com/iZoqKR0.jpeg"
     },
     {
-      image:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
+      image:"https://i.imgur.com/Fz8y6uv.jpeg"
     }
   ],
   featuredPosts:[
     {
       image:"https://images.unsplash.com/photo-1481391032119-d89fee407e44",
       row:["Google", "Trending", "New"],
-      title:"sadjakdskadjka",
+      title:"Trending New",
       subtitle:"We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
       date:"xxx",
       comments:"xxx",
@@ -166,7 +166,7 @@ export const data = {
     {
       image:"https://images.unsplash.com/photo-1563729784474-d77dbb933a9e",
       row:["Google", "Trending", "New"],
-      title:"sadjakdskadjka",
+      title:"Trending New",
       subtitle:"We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
       date:"xxx",
       comments:"xxx",
@@ -175,7 +175,7 @@ export const data = {
     {
       image:"https://images.unsplash.com/photo-1464306076886-da185f6a9d05",
       row:["Google", "Trending", "New"],
-      title:"sadjakdskadjka",
+      title:"Trending New",
       subtitle:"We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
       date:"xxx",
       comments:"xxx",
@@ -204,10 +204,10 @@ export const data = {
       },
       {
         title:"Get In Touch",
-        subtitle:["(480) 555-0103", "4517 Washington Ave.", "debra.holt@example.com"]
+        subtitle:["+90 543 516 21 57", "Turkey", "talhaakin173@gmail.com"]
       }
     ],
-    text:"Made With Love By Finland All Right Reserved"
+    text:"Made With Love By Grocery All Right Reserved"
   }
   
 

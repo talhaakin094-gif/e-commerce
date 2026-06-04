@@ -8,7 +8,7 @@ function PopularProducts({ popularProducts }) {
                 <div className="w-[380px] bg-[#F8F8F8] px-10 py-12">
                     <h2 className="text-[36px] font-bold text-[#252B42] text-center">{popularProducts.mostPopular.title}</h2>
                     <p className="text-[#737373] text-center mt-6 leading-7">{popularProducts.mostPopular.subtitle}</p>
-                    <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f" className="w-full h-[280px] object-cover mt-10"/>
+                    <img src="https://i.imgur.com/tvMEj3N.jpeg" className="w-full h-[280px] object-cover mt-10"/>
                     <h3 className="text-[18px] font-bold text-[#252B42] text-center mt-10">{popularProducts.mostPopular.text}</h3>
                     <div className="flex justify-center gap-3 mt-5">
                         <p className="text-[#BDBDBD] font-bold">{popularProducts.mostPopular.oldPrice}</p>

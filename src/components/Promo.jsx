@@ -10,7 +10,7 @@ function Promo({ promo }) {
               <h3 className="text-[24px] font-bold text-[#252B42] mt-3">{item.title}</h3>
               <p className="text-[14px] font-semibold text-[#252B42] mt-5">{item.text}</p>
             </div>
-            <img src={item.image} className="w-[130px] h-[130px] object-cover"/>  
+            <img src={item.image} className="w-[180px] h-[180px] object-cover"/>  
           </div>
         ))} 
       </div>

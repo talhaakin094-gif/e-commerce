@@ -31,7 +31,7 @@ function FeaturedProducts2({ featuredProducts }) {
                 </div>
             </div>
             <div className="w-[240px] relative">
-                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e" className="w-full h-full object-cover"/>
+                <img src="https://i.imgur.com/hOpSfhg.png" className="w-full h-full object-cover"/>
                 <div className="absolute top-8 left-8">
                     <p className="text-[14px] font-bold text-[#252B42]">FURNITURE</p>
                     <p className="text-[14px] font-bold text-[#2DC071] mt-3">5 Items</p>
