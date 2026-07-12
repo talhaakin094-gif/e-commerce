@@ -18,7 +18,8 @@ export const loginUser = (data, navigate, from) => async (dispatch) => {
 const initialState = {
     user: null,
     token: null,
-    isLoggedIn: false
+    isLoggedIn: false,
+    authLoading: true
 };
 const clientSlice = createSlice({
     name: "client",
@@ -28,15 +29,21 @@ const clientSlice = createSlice({
             state.user = action.payload.user;
             state.token = action.payload.token;
             state.isLoggedIn = true;
+            state.authLoading = false;
         },
         logout: (state) => {
             state.user = null;
             state.token = null;
             state.isLoggedIn = false;
+            state.authLoading = false;
+        },
+        authChecked: (state) => {
+        state.authLoading = false;
         }
     }
 });
 
-export const { setUser, logout } = clientSlice.actions;
+
+export const { setUser, logout, authChecked } = clientSlice.actions;
 
 export default clientSlice.reducer;
