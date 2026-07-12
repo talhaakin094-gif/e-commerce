@@ -14,6 +14,15 @@ function SignupPage() {
     return (
         <div className="min-h-screen flex items-center justify-center">
             <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 w-[400px]">
+                <div className="mb-6 rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 shadow-sm">
+                    <p className="font-semibold text-blue-800">Use the demo account to log in:</p>
+                    <p className="mt-2 text-gray-700">
+                        <strong>Email:</strong> customer@commerce.com
+                    </p>
+                    <p className="text-gray-700">
+                        <strong>Password:</strong> 123456
+                    </p>
+                </div>
                 <input placeholder="Name" {...register("name", {required: true, minLength: 3})} className="border p-3 rounded"/>
                 {errors.name && (<p>Name min 3 chars</p>)}
                 <input placeholder="Email" {...register("email", {required: true})} className="border p-3 rounded"/>

@@ -14,9 +14,9 @@ function FeaturedProducts({ featuredProducts }) {
                         <div className="flex items-center gap-10">
                             <h2 className="text-[24px] font-bold text-[#252B42]">BESTSELLER PRODUCTS</h2>
                             <div className="flex gap-8">
-                                <p className="text-[#737373] font-semibold">Men</p>
-                                <p className="text-[#737373] font-semibold">Women</p>
-                                <p className="text-[#737373] font-semibold">Accessories</p>
+                                <p className="text-[#737373] font-semibold">Fruits</p>
+                                <p className="text-[#737373] font-semibold">Vegetables</p>
+                                <p className="text-[#737373] font-semibold">Meat</p>
                             </div>
                         </div>
                         <div className="flex gap-4">

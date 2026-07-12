@@ -5,8 +5,15 @@ function OrdersPage() {
         const savedOrders = JSON.parse(localStorage.getItem("orders")) || [];
         setOrders(savedOrders);
     }, []);
+    const clearOrders = () => {
+    localStorage.removeItem("orders");
+    setOrders([]);
+    };
     return (
         <div className="max-w-[1200px] mx-auto p-10">
+            <div className="flex justify-end mb-6">
+            <button onClick={clearOrders} className="bg-red-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-red-700 transition">Delete All Orders</button>
+        </div>
             {orders.map((order) => (
                 <div key={order.id} className="border rounded p-5 mb-5">
                     <p>Order ID: {order.id}</p>

@@ -204,7 +204,7 @@ export const data = {
       },
       {
         title:"Get In Touch",
-        subtitle:["+90 543 516 21 57", "Turkey", "talhaakin173@gmail.com"]
+        subtitle:["+1 (415) 555-0182", "The Grocery", "contact@thegrocery.com"]
       }
     ],
     text:"Made With Love By Grocery All Right Reserved"
